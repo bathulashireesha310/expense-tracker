@@ -188,28 +188,28 @@ npx expo start --web
 <table align="center">
   <tr>
     <td align="center">
-      <img src="Log%20Outflow2.jpeg" width="250" alt="Add Expense Screen"><br>
+      <img src="assets/screenshots/Log%20Outflow2.jpeg" width="250" alt="Add Expense Screen"><br>
       <b>Add Expense Screen</b>
     </td>
     <td align="center">
-      <img src="Log%20Outflow1.jpeg" width="250" alt="Budget Configuration"><br>
+      <img src="assets/screenshots/Log%20Outflow1.jpeg" width="250" alt="Budget Configuration"><br>
       <b>Budget Configuration</b>
     </td>
     <td align="center">
-      <img src="Dashboard1.jpeg" width="250" alt="Budget Warning State"><br>
+      <img src="assets/screenshots/Dashboard1.jpeg" width="250" alt="Budget Warning State"><br>
       <b>Budget Warning State</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="Dashboard2.jpeg" width="250" alt="Limit Breach Alert"><br>
+      <img src="assets/screenshots/Dashboard2.jpeg" width="250" alt="Limit Breach Alert"><br>
       <b>Limit Breach Alert</b>
     </td>
     <td align="center">
-      <img src="Analytics%20Tab.jpeg" width="250" alt="Analytics Dashboard"><br>
+      <img src="assets/screenshots/Analytics%20Tab.jpeg" width="250" alt="Analytics Dashboard"><br>
       <b>Analytics Dashboard</b>
     </td>
-    <td></td> <!-- Empty cell to keep grid alignment neat -->
+    <td></td>
   </tr>
 </table>
 
