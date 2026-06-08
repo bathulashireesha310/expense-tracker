@@ -1,50 +1,237 @@
-# Welcome to your Expo app 👋
+# Expense Tracker Mobile Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile application built using React Native, TypeScript, and Expo to help users manage daily expenses, monitor budgets, and analyze spending patterns through an intuitive and responsive interface.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+### Expense Management
 
-2. Start the app
+* Add expenses with amount, title, category, date, and payment method.
+* View all expenses in a structured list.
+* Delete expense records.
+* Search expenses by title, category, or payment method.
 
-   ```bash
-   npx expo start
-   ```
+### Budget Monitoring
 
-In the output, you'll find options to open the app in a
+* Set a custom budget limit.
+* Track total expenses in real time.
+* Visual indicators for:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+  * Safe spending zone
+  * Near-budget warning
+  * Budget exceeded alert
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Analytics Dashboard
 
-## Get a fresh project
+* Category-wise expense analysis.
+* Payment method distribution (UPI, Cash, Card).
+* Monthly and historical expense filtering.
+* Percentage-based spending insights.
+* Dynamic progress indicators.
 
-When you're ready, run:
+### Data Persistence
 
-```bash
-npm run reset-project
+* Local storage using Async Storage.
+* Automatic saving and retrieval of expense records.
+* Data remains available across app sessions.
+
+### User Interface
+
+* Responsive mobile design.
+* Smooth navigation using Expo Router.
+* Modern and lightweight UI.
+* Icon support using Ionicons.
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* React Native
+* TypeScript
+* Expo
+
+### Navigation
+
+* Expo Router
+* React Navigation
+
+### State Management
+
+* React Context API
+* React Hooks (useState, useContext)
+
+### Storage
+
+* Async Storage
+
+### UI Components
+
+* React Native Components
+* Ionicons
+
+### Development Tools
+
+* ESLint
+* EAS Build
+
+---
+
+## Project Structure
+
+```text
+expense-tracker/
+│
+├── app/
+│   ├── (tabs)/
+│   │   ├── _layout.tsx
+│   │   ├── add.tsx
+│   │   ├── index.tsx
+│   │   └── stats.tsx
+│   │
+│   ├── _layout.tsx
+│   ├── +not-found.tsx
+│   └── modal.tsx
+│
+├── assets/
+│   └── images/
+│
+├── components/
+├── constants/
+├── context/
+├── hooks/
+│   ├── use-color-scheme.ts
+│   ├── use-color-scheme.web.ts
+│   └── use-theme-color.ts
+│
+├── app.json
+├── eas.json
+├── eslint.config.js
+├── package.json
+└── tsconfig.json
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Installation
 
-To learn more about developing your project with Expo, look at the following resources:
+### Clone the Repository
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/bathulashireesha310/expense-tracker.git 
+```
 
-## Join the community
+### Navigate to the Project Folder
 
-Join our community of developers creating universal apps.
+```bash
+cd expense-tracker
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start the Development Server
+
+```bash
+npx expo start
+```
+
+### Run on Android
+
+```bash
+npx expo start --android
+```
+
+### Run on Web
+
+```bash
+npx expo start --web
+```
+
+---
+
+## Core Functionalities
+
+* Expense CRUD Operations
+* Search and Filtering
+* Budget Monitoring
+* Category-Based Analytics
+* Payment Method Analysis
+* Local Data Persistence
+* Context API State Management
+* Dynamic UI Rendering
+
+---
+
+## Future Enhancements
+
+* User Authentication
+* Cloud Database Integration
+* Expense Export to PDF/Excel
+* Dark Mode Support
+* Backup and Restore Functionality
+* Interactive Charts and Graphs
+* Monthly Financial Reports
+
+---
+
+## Screenshots
+
+### 📱 Application Screenshots
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="Log%20Outflow2.jpeg" width="250" alt="Add Expense Screen"><br>
+      <b>Add Expense Screen</b>
+    </td>
+    <td align="center">
+      <img src="Log%20Outflow1.jpeg" width="250" alt="Budget Configuration"><br>
+      <b>Budget Configuration</b>
+    </td>
+    <td align="center">
+      <img src="Dashboard1.jpeg" width="250" alt="Budget Warning State"><br>
+      <b>Budget Warning State</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Dashboard2.jpeg" width="250" alt="Limit Breach Alert"><br>
+      <b>Limit Breach Alert</b>
+    </td>
+    <td align="center">
+      <img src="Analytics%20Tab.jpeg" width="250" alt="Analytics Dashboard"><br>
+      <b>Analytics Dashboard</b>
+    </td>
+    <td></td> <!-- Empty cell to keep grid alignment neat -->
+  </tr>
+</table>
+
+
+## Learning Outcomes
+
+This project helped me gain hands-on experience in:
+
+* React Native Mobile Development
+* TypeScript Development
+* Expo Ecosystem
+* Context API State Management
+* Async Storage Integration
+* Mobile UI/UX Design
+* Navigation and Routing
+* Component-Based Architecture
+
+---
+
+## Author
+
+**Shireesha Bathula**
+
+Aspiring Software Developer passionate about Mobile Application Development, React Native, TypeScript, and Full-Stack Development.
+
